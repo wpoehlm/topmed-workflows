@@ -73,7 +73,7 @@ requirements:
     ramMin: 1000
     coresMin: 1
   - class: DockerRequirement
-    dockerPull: 'images.sbgenomics.com/vladimir_obucina/topmed:VerifyBamID'
+    dockerPull: 'wpoehlm/verifybamid'
   - class: InitialWorkDirRequirement
     listing:
       - entryname: make_index.py

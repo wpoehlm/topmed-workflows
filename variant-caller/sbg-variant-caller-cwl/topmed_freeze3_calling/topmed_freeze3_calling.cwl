@@ -184,7 +184,7 @@ requirements:
     ramMin: 8000
     coresMin: 8
   - class: DockerRequirement
-    dockerPull: 'images.sbgenomics.com/vladimir_obucina/topmed:freeze3a'
+    dockerPull: 'wpoehlm/topmed'
   - class: InitialWorkDirRequirement
     listing:
       - entryname: gcconfig.pm
